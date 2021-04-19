@@ -5,4 +5,9 @@ This file needs to import the project's settings.py to be able to access the DB 
 
 You can run this file from the terminal, in the same location as manage.py with `python travel_wishlist/random_place_model.py` 
 
-An alternative is to create a custom management command. https://docs.djangoproject.com/en/3.2/howto/custom-management-commands/
+
+Custom managment admin commands
+
+An alternative is to create a custom management command. https://docs.djangoproject.com/en/3.2/howto/custom-management-commands/  
+
+See travel_wishlist/commands/addrandomplace.py.  Run this with `python manage.py addrandomplace`
