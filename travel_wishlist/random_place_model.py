@@ -13,7 +13,7 @@ django.setup()
 from travel_wishlist.models import Place 
 
 
-# http://names.drycodes.com/ Randomly generated place names API
+# http://names.drycodes.com/ Randomly generated weird place names API
 random_place_name_api_url = 'http://names.drycodes.com/1?separator=space'
 
 random_place_name_list = requests.get(random_place_name_api_url).json()
